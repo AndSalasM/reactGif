@@ -18,6 +18,7 @@ export const GifGrid = ({category}) => {
                 
             
                 {
+                    //hola
                     images.map(img=> (
                     
                         <GifGridItem {...img}  key = {img.id} />
